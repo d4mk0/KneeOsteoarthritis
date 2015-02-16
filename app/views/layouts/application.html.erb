@@ -1,14 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>KneeOsteoarthritis</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+  <%= Rhinoart::Setting.find_by_name('head_tags').value.html_safe %>
 </head>
 <body>
-
-<%= yield %>
-
+  <%= yield %>
 </body>
 </html>
