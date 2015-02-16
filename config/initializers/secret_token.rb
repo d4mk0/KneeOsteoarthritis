@@ -1,0 +1,1 @@
+KneeOsteoarthritis::Application.config.secret_key_base = 'a3bb9da5fa8b814a0740b1ab4a277cfa1888a863b75176cd20dbac965f5d9949db195c9a940cba80d56367b57d4c9e19e71c3d47d98043925f30776e57731f1b'
